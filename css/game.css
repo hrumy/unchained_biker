@@ -1,0 +1,42 @@
+#canvas {
+  border-style: solid;
+  border-width: 5px;
+  border-radius: 10px;
+}
+#score {
+      border: 3px solid yellow;
+      border-radius: 10px;
+      border-width: 2px;
+      padding: 10px;
+      box-shadow: -3px 7px 5px 0px rgba(0,0,0,0.75);
+      width: 70px;
+      height: 30px;
+      background-color: black;
+      color: yellow;
+      font-family: Lucida Console;
+      font-size: 30px;
+      position: relative;
+      bottom: 420px;
+      left: 20px;
+    }
+#star {
+      position: relative;
+      bottom: 587px;
+      left: 65px;
+    }
+#timer {
+	border: 3px solid yellow;
+      border-radius: 10px;
+      border-width: 2px;
+      padding: 15px;
+      box-shadow: -3px 7px 5px 0px rgba(0,0,0,0.75);
+      width: 100px;
+      height: 30px;
+      background-color: black;
+      color: yellow;
+      font-family: Lucida Console;
+      font-size: 30px;
+      position: relative;
+      bottom: 525px;
+      left: 680px;
+}

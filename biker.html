@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>biker</title>
+  <meta charset="utf-8" />
+  <link href="css/game.css" rel="stylesheet" />
+  <script src="js/gameobject.js"></script>
+  <script src="js/background.js"></script>
+  <script src="js/block.js"></script>
+  <script src="js/block2.js"></script>
+  <script src="js/spikes.js"></script>
+  <script src="js/icicle.js"></script>
+  <script src="js/snowman.js"></script>
+  <script src="js/stars.js"></script>
+  <script src="js/player.js"></script>
+  <script src="js/finish.js"></script>
+  <script src="js/cactus.js"></script>
+  <script src="js/menu_screen.js"></script>
+  <script src="js/level1.js"></script>
+  <script src="js/level2.js"></script>
+  <script src="js/level3.js"></script>
+  <script src="js/level4.js"></script>
+  <script src="js/howtoplay.js"></script>
+  <script src="js/game.js"></script>
+  <script src="js/main.js"></script>
+  <script src="js/timer.js"></script>
+  <script src="js/menu.js"></script>
+  <script src="js/level_select.js"></script>
+  <script src="js/select_diff.js"></script>
+  <script src="js/interface.js"></script>
+  <script src="js/end.js"></script>
+  <script src="js/garage.js"></script>
+</head>
+
+<body>
+  <p>
+    <canvas id="canvas" height="400" width="1500">No Canvas :(</canvas>
+  </p>
+  <audio id="starsound">
+    <source src="sounds/star.wav" type="audio/wav">
+    Your browser does not support the audio element.
+  </audio>
+  <audio id="menu">
+    <source src="sounds/menu-music.wav" type="audio/wav">
+    Your browser does not support the audio element.
+  </audio>
+  <audio id="win">
+    <source src="sounds/win.mp3" type="audio/mp3">
+    Your browser does not support the audio element.
+  </audio>
+  <audio id="game">
+    <source src="sounds/level-background.mp3" type="audio/mpeg">
+    Your browser does not support the audio element.
+  </audio>
+  <audio id="click">
+    <source src="sounds/menu-click.wav" type="audio/wav">
+    Your browser does not support the audio element.
+  </audio>
+
+  <p id="score" hidden="true"></p>
+  <p id="timer" hidden="true"></p>
+
+  <img id="block" src="img/block1.jpg" hidden="true" />
+  <img id="block2" src="img/block2.jpg" hidden="true" />
+  <img id="bike" src="img/bike3.png" hidden="true" />
+  <img id="bike2" src="img/bike2.png" hidden="true" />
+  <img id="bike3" src="img/bike.png" hidden="true" />
+  <img id="spikes" src="img/spikes.png" hidden="true"  />
+  <img id="menubackground" src="img/menu-background.jpg" hidden="true"  />
+  <img id="icicle" src="img/icicle.png" hidden="true"  />
+  <img id="star" src="img/star.png" height="30" width="30"  />
+  <img id="cactus" src="img/cactus.png" hidden="true"  />
+  <img id="finish" src="img/finish.png" hidden="true"  />
+  <img id="snowman" src="img/snowman.png" hidden="true"  />
+  <img id="lvl2" src="img/level-background2.png" hidden="true" />
+  <img id="lvl1" src="img/level-background3.png" hidden="true" />
+  <img id="play" src="img/button1.png" hidden="true" />
+  <img id="settings" src="img/button2.png" hidden="true" />
+  <img id="sound-off" src="img/sound-off.png" hidden="true" />
+  <img id="sound-on" src="img/sound.png" hidden="true" />
+  <img id="level_select" src="img/level-select.png" hidden="true" />
+  <img id="1" src="img/lvl1.png" hidden="true" />
+  <img id="2" src="img/lvl2.png" hidden="true" />
+  <img id="3" src="img/lvl3.png" hidden="true" />
+  <img id="4" src="img/lvl4.png" hidden="true" />
+  <img id="sipka" src="img/sipka.png" hidden="true" />
+  <img id="pause" src="img/pause.png" hidden="true" />
+  <img id="easy" src="img/easy.png" hidden="true" />
+  <img id="hard" src="img/hard.png" hidden="true" />
+  <img id="sel_dif" src="img/select_dif.png" hidden="true" />
+  <img id="win_screen" src="img/win.png" hidden="true" />
+  <img id="win2" src="img/win2.png" hidden="true" />
+  <img id="reset" src="img/restart.png" hidden="true" />
+  <img id="htp" src="img/howtoplay.png" hidden="true" />
+  <img id="garage_button" src="img/garage.png" hidden="true" />
+  <img id="garage" src="img/garage_background.png" hidden="true" />
+
+</body>
+
+</html>
